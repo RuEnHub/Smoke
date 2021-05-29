@@ -1,0 +1,41 @@
+@keyframes bobbing {
+	0% {
+			transform:translate(0px,0px);
+			animation-timing-function:ease-in-out;
+	}
+	50% {
+			transform:translate(0px,8px);
+			animation-timing-function:ease-in-out;
+	}
+	100% {
+			transform:translate(0px,0px);
+			animation-timing-function: ease-in-out;
+	}
+}
+
+.pulsate {
+	transition: text-shadow 1s linear 0s;
+}
+.pulsate.glow {
+	text-shadow: rgb(255, 255, 255) 0px 0px 30px;
+}
+
+.mouse-parallax {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.mouse-parallax-smoke {
+	position: absolute;
+	z-index: 1;
+	width: 110%;
+	height: 110%;
+	background-image: url(../img/smoke.png);
+	background-position: center center;
+	background-size: cover;
+	transform: none;
+}

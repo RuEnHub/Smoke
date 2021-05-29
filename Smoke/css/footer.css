@@ -1,0 +1,40 @@
+
+footer {
+	background:#5956a8;
+	overflow: auto;
+}
+
+.social-icons {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 2em;
+	/* margin-left: -40px; */
+}
+
+.social-icons a span {
+	color: #000;
+	width: 40px;
+	background: #fff;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	margin: 0px 8px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	transition: 0.5s all;
+	-moz-transition: 0.5s all;
+}
+
+.social-icons a span:hover {
+	color:#0ccbf1;
+}
+
+.footer-text {
+	text-align: center;
+	margin: 2em;
+	font-size: 16px;
+	color: white;
+	letter-spacing: 1px;
+}
